@@ -7,7 +7,7 @@ package lession18;
 public class Main2 {
 	public static void main(String[] args) {
 		MyList m = new MyList();
-		m.setList(-5);
+		m.setList("-5");
 		m.setList(0);
 		m.getList().add(5);
 		m.getList().add(10);

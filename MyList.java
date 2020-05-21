@@ -20,6 +20,10 @@ public class MyList {
 		return list;
 	}
 
+	public void setList(String s) { //перевантажив функцій 
+		//this.list = 
+		list.add(Integer.parseInt(s));
+	}
 
 	public void setList(int i) { //List<Integer> list
 		//this.list = 
